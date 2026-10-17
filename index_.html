@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opiniones · BY SOFIA CONTENT</title>
+<meta name="description" content="Opiniones de clientes de By Sofía Content · Estudio creativo de contenido estratégico para marcas.">
+<meta property="og:title" content="Opiniones que inspiran confianza · BY SOFIA CONTENT">
+<meta property="og:description" content="Lee lo que opinan las marcas que trabajaron conmigo.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bysofiacontent.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F0F0F'/%3E%3Ctext x='16' y='21' font-family='Arial' font-size='13' font-weight='700' fill='white' text-anchor='middle'%3ESC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0F0F0F;--muted:#6B6B6B;--soft:#4A4A4A;--line:#ECECEC;--field:#D4D4D4;--bg:#FFFFFF;--tint:#FAFAFA;
+--shadow:0 1px 2px rgba(0,0,0,.04),0 10px 28px rgba(0,0,0,.07)}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Source Sans 3',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--ink)}
+input,textarea,button,select{font-family:inherit;font-size:16px;color:var(--ink)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding-left:20px;padding-right:20px}
+.poppins{font-family:'Poppins',system-ui,sans-serif}
+.eyebrow{font-family:'Poppins',system-ui,sans-serif;font-size:12px;font-weight:500;letter-spacing:.28em;color:var(--muted)}
+.center{display:flex;flex-direction:column;align-items:center;text-align:center}
+.sec-title{margin:0;font-family:'Poppins',system-ui,sans-serif;font-weight:400;font-size:clamp(26px,3.6vw,40px);letter-spacing:-.025em}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Encabezado */
+.brand{padding-top:clamp(36px,6vw,64px);gap:10px}
+.brand-name{font-family:'Poppins',system-ui,sans-serif;font-size:clamp(15px,2vw,18px);font-weight:600;letter-spacing:.32em;padding-left:.32em}
+.brand-sub{font-size:14px;letter-spacing:.08em;color:var(--muted)}
+.rule{width:100%;max-width:520px;height:1px;background:var(--ink);margin-top:clamp(20px,3vw,28px)}
+.hero{padding-top:clamp(28px,5vw,48px);padding-bottom:clamp(48px,8vw,88px);gap:18px}
+.hero h1{margin:0;font-family:'Poppins',system-ui,sans-serif;font-weight:300;font-size:clamp(36px,6.2vw,74px);line-height:1.04;letter-spacing:-.035em;max-width:860px}
+.hero h1 b{font-weight:600}
+.hero p{margin:0;font-size:18px;line-height:1.5;color:var(--soft)}
+.summary{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;margin-top:6px;font-size:15px;color:var(--soft)}
+.summary .avg{font-family:'Poppins',system-ui,sans-serif;font-size:22px;font-weight:600;color:var(--ink)}
+.stars{display:inline-flex;gap:2px;color:var(--ink)}
+.stars svg{display:block}
+
+/* Servicios */
+.services{padding-bottom:clamp(56px,9vw,100px);display:flex;flex-direction:column;gap:24px}
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:12px}
+.svc-card{display:flex;flex-direction:column;gap:14px;padding:clamp(16px,2.4vw,22px);text-decoration:none;color:var(--ink);border-radius:14px;transition:box-shadow .3s,transform .3s}
+.svc-card:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(0,0,0,.04),0 14px 34px rgba(0,0,0,.10)}
+.svc-icon{width:46px;height:46px;border-radius:999px;border:1px solid var(--ink);display:flex;align-items:center;justify-content:center}
+.svc-name{font-family:'Poppins',system-ui,sans-serif;font-size:16px;font-weight:500;line-height:1.3}
+.svc-meta{font-size:14px;color:var(--muted)}
+.ico{display:inline-flex;animation:flotar 3.2s ease-in-out infinite}
+.ico-spark{animation:brillo 2.2s ease-in-out infinite}
+.svc-card:nth-child(2) .ico{animation-delay:.4s}.svc-card:nth-child(3) .ico{animation-delay:.8s}
+@keyframes flotar{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes brillo{0%,100%{transform:scale(1) rotate(0);opacity:1}50%{transform:scale(1.15) rotate(12deg);opacity:.7}}
+
+/* Formulario */
+.exp{background:var(--tint);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:clamp(56px,9vw,100px) 20px}
+.exp-inner{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+.form-card{padding:clamp(22px,5vw,40px)}
+form{display:flex;flex-direction:column;gap:20px}
+.row2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:16px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label,legend{font-size:14px;font-weight:600}
+fieldset{border:0;margin:0;padding:0}
+legend{padding:0;margin-bottom:6px}
+.input{min-height:48px;padding:0 14px;border:1px solid var(--field);border-radius:10px;background:#fff;width:100%}
+textarea.input{padding:12px 14px;line-height:1.5;resize:vertical;min-height:120px}
+select.input{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%230F0F0F' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px}
+.rate{display:flex;flex-wrap:wrap;align-items:center}
+.star-btn{width:44px;height:44px;display:flex;align-items:center;justify-content:center;border:0;background:transparent;cursor:pointer;padding:0;color:var(--ink)}
+.rate-text{margin-left:8px;font-size:14px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--field);background:#fff;font-size:14px;font-weight:500;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:600}
+.hp{position:absolute;left:-9999px}
+.error{margin:0;font-size:14px;color:#B42318}
+.btn-dark{min-height:52px;border:0;border-radius:999px;background:var(--ink);color:#fff;font-family:'Poppins',system-ui,sans-serif;font-size:14px;font-weight:500;letter-spacing:.14em;cursor:pointer}
+.btn-dark[disabled]{opacity:.6;cursor:wait}
+.btn-line{min-height:44px;padding:0 22px;border:1px solid var(--ink);border-radius:999px;background:#fff;font-size:14px;font-weight:600;cursor:pointer}
+.thanks{gap:12px;padding:16px 0}
+.thanks h3{margin:0;font-family:'Poppins',system-ui,sans-serif;font-weight:400;font-size:26px;letter-spacing:-.02em}
+.thanks p{margin:0;font-size:16px;line-height:1.55;color:var(--soft);max-width:420px}
+
+/* Reseñas */
+.reviews{padding-top:clamp(56px,9vw,100px);padding-bottom:clamp(56px,9vw,100px);display:flex;flex-direction:column;gap:24px}
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:18px}
+.rev{padding:clamp(20px,3vw,28px);display:flex;flex-direction:column;gap:12px}
+.rev-name{font-family:'Poppins',system-ui,sans-serif;font-size:16px;font-weight:600}
+.rev-meta{font-size:14px;color:var(--muted);margin-top:3px}
+.rev-text{margin:0;font-size:16px;line-height:1.6;color:#262626;white-space:pre-line;overflow-wrap:anywhere}
+.rev-foot{margin-top:auto;padding-top:12px;border-top:1px solid #F0F0F0;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.empty{margin:0;padding:32px 20px;text-align:center;border:1px dashed var(--field);border-radius:16px;color:var(--soft)}
+
+/* Aparición al bajar */
+.reveal{opacity:0;transform:translateY(32px) scale(.97);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.visible{opacity:1;transform:none}
+
+/* Cierre */
+.closing{background:var(--ink);color:#fff;padding:clamp(56px,9vw,100px) 20px}
+.closing-inner{max-width:680px;margin:0 auto;gap:18px}
+.closing h2{margin:0;font-family:'Poppins',system-ui,sans-serif;font-weight:300;font-size:clamp(26px,3.8vw,42px);line-height:1.2;letter-spacing:-.025em}
+.closing h2 b{font-weight:600}
+.cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:8px;width:100%}
+.cta{flex:1 1 220px;max-width:280px;min-height:52px;display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;text-decoration:none;font-family:'Poppins',system-ui,sans-serif;font-size:14px;font-weight:500;letter-spacing:.06em}
+.cta-white{background:#fff;color:var(--ink)}
+.cta-outline{border:1px solid #fff;color:#fff}
+.cta:hover{opacity:.88}
+footer{display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between;align-items:center;padding-top:24px;padding-bottom:32px;font-size:13px;color:var(--muted)}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ico,.ico-spark{animation:none}.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+
+<header class="wrap center brand">
+  <div class="brand-name">BY SOFIA CONTENT</div>
+  <div class="brand-sub">Estudio creativo · Contenido</div>
+  <div class="rule" aria-hidden="true"></div>
+</header>
+
+<main>
+<section class="wrap center hero">
+  <h1>Opiniones que inspiran <b>confianza</b></h1>
+  <p>Contenido estratégico para marcas.</p>
+  <div class="summary" id="summary" aria-live="polite"></div>
+</section>
+
+<section class="wrap services" aria-labelledby="svc-title">
+  <div class="center" style="gap:8px">
+    <div class="eyebrow">SERVICIOS EVALUADOS</div>
+    <h2 class="sec-title" id="svc-title" style="font-size:clamp(24px,3.2vw,34px)">Elige un servicio y lee sus opiniones</h2>
+  </div>
+  <div class="svc-grid" id="svc-grid"></div>
+</section>
+
+<section class="exp" id="experiencia" aria-labelledby="exp-title">
+  <div class="exp-inner">
+    <div class="center" style="gap:8px">
+      <div class="eyebrow">TU OPINIÓN</div>
+      <h2 class="sec-title" id="exp-title">Cuéntame tu experiencia</h2>
+      <p style="margin:0;font-size:16px;color:var(--soft)">Reviso cada reseña antes de publicarla.</p>
+    </div>
+    <div class="card form-card">
+      <form id="form" novalidate>
+        <div class="row2">
+          <div class="field"><label for="f-name">Nombre</label><input class="input" id="f-name" name="nombre" type="text" maxlength="80" autocomplete="name" placeholder="Tu nombre"></div>
+          <div class="field"><label for="f-brand">Nombre de la marca o negocio</label><input class="input" id="f-brand" name="marca" type="text" maxlength="80" autocomplete="organization" placeholder="Tu marca"></div>
+        </div>
+        <div class="field">
+          <label for="f-svc">¿Qué servicio contrataste?</label>
+          <select class="input" id="f-svc" name="servicio"><option value="">Elige un servicio</option></select>
+        </div>
+        <fieldset>
+          <legend>¿Cómo calificarías tu experiencia?</legend>
+          <div class="rate" id="rate"></div>
+        </fieldset>
+        <div class="field">
+          <label for="f-text">Tu reseña</label>
+          <textarea class="input" id="f-text" name="resena" rows="4" maxlength="1500" placeholder="¿Cómo fue la experiencia? ¿Qué resultados viste?"></textarea>
+        </div>
+        <fieldset>
+          <legend>¿Me recomendarías?</legend>
+          <div class="chips" id="rec"></div>
+        </fieldset>
+        <div class="hp" aria-hidden="true"><label for="f-web">No completar</label><input id="f-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <p class="error" id="error" role="alert" hidden></p>
+        <button class="btn-dark" type="submit" id="submit">ENVIAR RESEÑA</button>
+      </form>
+      <div class="center thanks" id="thanks" role="status" hidden>
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0F0F0F" stroke-width="1.3" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+        <h3 id="thanks-title">Gracias</h3>
+        <p>Recibí tu reseña. La publicaré aquí una vez revisada.</p>
+        <button class="btn-line" type="button" id="again">Escribir otra reseña</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap reviews" id="resenas" aria-labelledby="rev-title">
+  <div class="center" style="gap:8px">
+    <div class="eyebrow">RESEÑAS PUBLICADAS</div>
+    <h2 class="sec-title" id="rev-title">Lo que opinan mis clientes</h2>
+    <button class="btn-line" type="button" id="clear" hidden>Ver todas las reseñas ×</button>
+  </div>
+  <div class="rev-grid" id="rev-grid" aria-live="polite"></div>
+  <p class="empty" id="empty" hidden></p>
+  <button class="btn-line" type="button" id="more" style="align-self:center" hidden>Ver más reseñas</button>
+</section>
+
+<section class="closing">
+  <div class="center closing-inner">
+    <div class="eyebrow" style="color:#BDBDBD">¿TRABAJAMOS JUNTOS?</div>
+    <h2>Si buscas crear contenido alineado con la identidad de tu marca, me encantaría conocer tu <b>proyecto</b>.</h2>
+    <div class="cta-row">
+      <a class="cta cta-white" href="https://instagram.com/bysofiacontent" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg>
+        Consultar por Instagram</a>
+      <a class="cta cta-outline" href="https://wa.me/56945895349?text=Hola%20Sof%C3%ADa%2C%20quiero%20consultar%20por%20tus%20servicios" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8.4 19z"/><path d="M9.2 8.6c.2-.5.6-.5.9-.5l.6 1.4-.6.8c.5 1 1.3 1.8 2.3 2.3l.8-.6 1.4.6c0 .3 0 .7-.5.9-1.6.8-5.6-3.2-4.9-4.9z"/></svg>
+        Consultar por WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">
+  <span class="poppins" style="letter-spacing:.2em;color:var(--ink)">BY SOFIA CONTENT</span>
+  <span>© <span id="year">2026</span> · Santiago, Chile</span>
+</footer>
+
+<script>
+/* ============================================================
+   CONFIGURACIÓN — pega aquí la URL de tu Google Apps Script
+   (termina en /exec). Ver LEEME.md, paso 1.
+   ============================================================ */
+var API_URL = 'https://script.google.com/macros/s/AKfycbyWEYgWUBujYi-LHFl0ng2dhVhnHpwdz4EpZq24fle_ZgcQHiZEgWcSfsQewvhBdPV6OA/exec';
+
+var SERVICES = [
+  { label: 'Gestión de redes', icon: 'cal' },
+  { label: 'Edición de reels', icon: 'cam' },
+  { label: 'Producción de contenido audiovisual', icon: 'clap' },
+  { label: 'Edición de videos con IA', icon: 'spark' }
+];
+var RECS = ['Sí, totalmente', 'Sí, probablemente', 'No estoy segura/o'];
+var WORDS = ['Toca las estrellas', 'Mala', 'Regular', 'Buena', 'Muy buena', 'Excelente'];
+var STAR = 'M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2 6.3 20.3l1.2-6.4L2.8 9.5l6.4-.8z';
+var ICONS = {
+  cal: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M8 13.5h2M14 13.5h2M8 17h2"/></svg>',
+  cam: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="6.5" width="13" height="11" rx="2"/><path d="M15.5 10.5l6-3.5v10l-6-3.5z"/></svg>',
+  clap: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 10h17v9a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 19z"/><path d="M3.5 10l-.6-3.2L18.6 4l.9 3.6z"/><path d="M7.6 6.1l2.3 3M12.6 5.2l2.3 3"/></svg>',
+  spark: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M11 3l1.9 5.4L18 10.3l-5.1 1.9L11 17.6l-1.9-5.4L4 10.3l5.1-1.9z"/><path d="M18.5 14.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>'
+};
+
+var state = { reviews: [], loaded: false, failed: false, filter: '', limit: 6, stars: 0, rec: '' };
+var $ = function (id) { return document.getElementById(id); };
+var configured = API_URL.indexOf('https://') === 0;
+
+function el(tag, attrs, text) {
+  var n = document.createElement(tag);
+  if (attrs) for (var k in attrs) n.setAttribute(k, attrs[k]);
+  if (text != null) n.textContent = text;
+  return n;
+}
+function starsSvg(n, size, filledOnly) {
+  var html = '';
+  for (var i = 1; i <= 5; i++) {
+    var on = i <= Math.round(n);
+    html += '<svg width="' + size + '" height="' + size + '" viewBox="0 0 24 24" aria-hidden="true" fill="' + (on || filledOnly ? 'currentColor' : 'none') + '" stroke="currentColor" stroke-width="' + (on ? 0 : 1.4) + '"><path d="' + STAR + '"/></svg>';
+  }
+  return html;
+}
+function countFor(label) { return state.reviews.filter(function (r) { return r.servicio === label; }).length; }
+function plural(n) { return n + (n === 1 ? ' reseña' : ' reseñas'); }
+
+/* ---------- Animación de aparición al bajar ---------- */
+var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function (entries) {
+  entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }) : null;
+function reveal(node, delay) {
+  node.classList.add('reveal');
+  node.style.transitionDelay = (delay || 0) + 'ms';
+  if (io) io.observe(node); else node.classList.add('visible');
+}
+
+/* ---------- Resumen ---------- */
+function renderSummary() {
+  var s = $('summary'); s.innerHTML = '';
+  if (!state.loaded) { s.textContent = state.failed ? '' : 'Cargando opiniones…'; return; }
+  var n = state.reviews.length;
+  if (!n) { s.textContent = 'Sé la primera marca en dejar tu opinión.'; return; }
+  var avg = state.reviews.reduce(function (a, r) { return a + r.estrellas; }, 0) / n;
+  s.appendChild(el('span', { 'class': 'avg' }, avg.toFixed(1).replace('.', ',')));
+  var st = el('span', { 'class': 'stars', role: 'img', 'aria-label': 'Promedio ' + avg.toFixed(1) + ' de 5' });
+  st.innerHTML = starsSvg(avg, 16); s.appendChild(st);
+  s.appendChild(el('span', null, '· ' + plural(n)));
+}
+
+/* ---------- Servicios ---------- */
+function renderServices() {
+  var g = $('svc-grid'); g.innerHTML = '';
+  SERVICES.forEach(function (sv, i) {
+    var a = el('a', { 'class': 'card svc-card', href: '#resenas' });
+    var ic = el('span', { 'class': 'svc-icon' });
+    ic.innerHTML = '<span class="ico' + (sv.icon === 'spark' ? ' ico-spark' : '') + '">' + ICONS[sv.icon] + '</span>';
+    var tx = el('span', { style: 'display:flex;flex-direction:column;gap:4px' });
+    tx.appendChild(el('span', { 'class': 'svc-name' }, sv.label));
+    var c = countFor(sv.label);
+    tx.appendChild(el('span', { 'class': 'svc-meta' }, (state.loaded && c ? plural(c) + ' · ' : '') + 'ver opiniones →'));
+    a.appendChild(ic); a.appendChild(tx);
+    a.addEventListener('click', function () { state.filter = sv.label; state.limit = 6; renderReviews(); });
+    g.appendChild(a); reveal(a, i * 80);
+  });
+}
+
+/* ---------- Reseñas ---------- */
+function renderReviews() {
+  var grid = $('rev-grid'); grid.innerHTML = '';
+  $('rev-title').textContent = state.filter || 'Lo que opinan mis clientes';
+  $('clear').hidden = !state.filter;
+  var list = state.reviews.filter(function (r) { return !state.filter || r.servicio === state.filter; });
+  var shown = list.slice(0, state.limit);
+  shown.forEach(function (r, i) {
+    var art = el('article', { 'class': 'card rev' });
+    var head = el('div');
+    head.appendChild(el('div', { 'class': 'rev-name' }, r.nombre));
+    head.appendChild(el('div', { 'class': 'rev-meta' }, [r.marca, r.servicio].filter(Boolean).join(' · ')));
+    art.appendChild(head);
+    var st = el('div', { 'class': 'stars', role: 'img', 'aria-label': r.estrellas + ' de 5 estrellas' });
+    st.innerHTML = starsSvg(r.estrellas, 15); art.appendChild(st);
+    art.appendChild(el('p', { 'class': 'rev-text' }, r.resena));
+    var foot = el('div', { 'class': 'rev-foot' });
+    foot.appendChild(el('span', null, r.recomienda ? 'Recomienda: ' + r.recomienda : ''));
+    foot.appendChild(el('span', null, r.fecha));
+    art.appendChild(foot);
+    grid.appendChild(art); reveal(art, (i % 3) * 90);
+  });
+  var empty = $('empty');
+  if (!state.loaded) { empty.hidden = false; empty.textContent = state.failed ? 'No pudimos cargar las reseñas. Intenta de nuevo en unos minutos.' : 'Cargando reseñas…'; }
+  else if (!list.length) { empty.hidden = false; empty.textContent = state.filter ? 'Aún no hay reseñas de este servicio.' : 'Aún no hay reseñas publicadas. ¡Sé la primera!'; }
+  else empty.hidden = true;
+  $('more').hidden = list.length <= state.limit;
+}
+
+/* ---------- Formulario ---------- */
+function renderRate() {
+  var r = $('rate'); r.innerHTML = '';
+  for (var i = 1; i <= 5; i++) (function (i) {
+    var b = el('button', { type: 'button', 'class': 'star-btn', 'aria-label': i + (i === 1 ? ' estrella' : ' estrellas'), 'aria-pressed': String(i === state.stars) });
+    var on = i <= state.stars;
+    b.innerHTML = '<svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="' + (on ? 'currentColor' : 'none') + '" stroke="currentColor" stroke-width="' + (on ? 0 : 1.3) + '"><path d="' + STAR + '"/></svg>';
+    b.addEventListener('click', function () { state.stars = i; renderRate(); });
+    r.appendChild(b);
+  })(i);
+  r.appendChild(el('span', { 'class': 'rate-text' }, WORDS[state.stars]));
+}
+function renderRec() {
+  var c = $('rec'); c.innerHTML = '';
+  RECS.forEach(function (l) {
+    var b = el('button', { type: 'button', 'class': 'chip', 'aria-pressed': String(state.rec === l) }, l);
+    b.addEventListener('click', function () { state.rec = l; renderRec(); });
+    c.appendChild(b);
+  });
+}
+function showError(msg) { var e = $('error'); e.textContent = msg; e.hidden = !msg; }
+
+$('form').addEventListener('submit', function (ev) {
+  ev.preventDefault();
+  var data = {
+    nombre: $('f-name').value.trim(),
+    marca: $('f-brand').value.trim(),
+    servicio: $('f-svc').value,
+    estrellas: state.stars,
+    resena: $('f-text').value.trim(),
+    recomienda: state.rec,
+    website: $('f-web').value
+  };
+  if (!data.nombre) return showError('Escribe tu nombre.');
+  if (!data.servicio) return showError('Elige el servicio que contrataste.');
+  if (!data.estrellas) return showError('Califica tu experiencia de 1 a 5 estrellas.');
+  if (data.resena.length < 10) return showError('Cuéntame un poco más en tu reseña.');
+  if (!data.recomienda) return showError('Indica si me recomendarías.');
+  showError('');
+  if (!configured) return showError('El formulario aún no está conectado (falta la URL de Apps Script).');
+  var btn = $('submit'); btn.disabled = true; btn.textContent = 'ENVIANDO…';
+  fetch(API_URL, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(data) })
+    .then(function () {
+      $('form').hidden = true;
+      $('thanks-title').textContent = 'Gracias, ' + (data.nombre.split(' ')[0] || '');
+      $('thanks').hidden = false;
+    })
+    .catch(function () { showError('No se pudo enviar. Revisa tu conexión e intenta de nuevo.'); })
+    .then(function () { btn.disabled = false; btn.textContent = 'ENVIAR RESEÑA'; });
+});
+$('again').addEventListener('click', function () {
+  $('form').reset(); state.stars = 0; state.rec = ''; renderRate(); renderRec();
+  $('thanks').hidden = true; $('form').hidden = false;
+});
+$('clear').addEventListener('click', function () { state.filter = ''; state.limit = 6; renderReviews(); });
+$('more').addEventListener('click', function () { state.limit += 6; renderReviews(); });
+
+/* ---------- Carga ---------- */
+SERVICES.forEach(function (s) { $('f-svc').appendChild(el('option', { value: s.label }, s.label)); });
+$('year').textContent = new Date().getFullYear();
+renderRate(); renderRec(); renderServices(); renderSummary(); renderReviews();
+
+if (configured) {
+  fetch(API_URL)
+    .then(function (r) { return r.json(); })
+    .then(function (json) {
+      state.reviews = (json.resenas || []).map(function (r) {
+        return { nombre: String(r.nombre || ''), marca: String(r.marca || ''), servicio: String(r.servicio || ''), estrellas: Math.max(1, Math.min(5, Number(r.estrellas) || 5)), recomienda: String(r.recomienda || ''), resena: String(r.resena || ''), fecha: String(r.fecha || '') };
+      });
+      state.loaded = true;
+    })
+    .catch(function () { state.failed = true; })
+    .then(function () { renderSummary(); renderServices(); renderReviews(); });
+} else {
+  state.loaded = true; renderSummary(); renderReviews();
+}
+</script>
+</body>
+</html>
